@@ -1,0 +1,640 @@
+@media (min-width: 240px) and (max-width: 640px) {
+    body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    /*Header*/
+    .imgfundo{
+    width: 100%;
+    background-position: center;
+    height: 95vh;
+    }
+    .botaoheader{
+        width: 100%;
+    }
+    .backescuro{
+        height: 95vh;
+    }
+    .titulo-site{
+    width: 100%;
+    }
+    /*Procure*/
+    .procure{
+    width: 100%;
+    }
+    .botaoprojetos{
+        width: 34%;
+        margin-left: 10px;
+    }
+    .iconeprojetos{
+        display: none;
+    }
+    /*/Procure*/
+    /*/Header*/
+    .bordatouch, .bordatouch1{
+        display: none;
+    }
+    .concertar{
+        width: 50% !important;
+    }
+    .controle{
+        position: relative !important;
+        left: 0% !important;
+    }
+    .mapatop{
+        width: 100%;
+    }
+    .bordaworking{
+        width: 32% !important;
+        left: 34% !important;
+    }
+    /*portfolio*/
+    .bordacreation, .bordacreation1{
+        display: none;
+    }
+    .botaoch2021{
+        width: 50% !important;
+    }
+    .botaorelanguage{
+        width: 50% !important;
+    }
+    .bordaads, .bordaads1{
+        display: none;
+    }
+    .sizeanima{
+        width: 97px !important;
+        height: 88px !important;
+        margin-bottom: 50px;
+    }
+    .botaoadvertisement{
+        width: 50% !important;
+    }
+    .designfoto p{
+        font-size: 16px;
+        width: 100% !important;
+    }
+    .botaodesigntop{
+        width: 50% !important;
+    }
+    /*/portfolio*/
+    /*Everythin*/
+    .seusiteprecisava{
+        margin-left: 5px !important;
+    }
+    /*/everything*/
+    /*testemunho*/
+    .testemunho{
+        margin-left: 5px !important;
+    }
+    .bordatestemunho{
+        width: 30% !important;
+    }
+    .designfoto{
+        object-fit: cover;
+        background-attachment: initial !important;
+    }
+    /*/testemunho*/
+    /*About*/
+    .about-read{
+        margin-left: 5px !important;
+    }
+    .aboutcentro{
+    margin: 50px auto;
+    font-size: 12px;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: -15px;
+    }
+ 
+    .imgsobre-oeduardo{
+        height: 65vh;       
+        background-attachment: initial !important;
+    }
+    .backazul-oeduardo{
+        height: 65vh;
+    }
+   .col-6{
+    flex: 0 0 auto;
+    width: 100%;
+   }
+   .botaodoaboutus{
+       left: 0%;
+   }
+.fundadorajuste{
+    left: 24px;
+    top: 42%;
+
+}
+.fundador{
+    position: relative;
+    right: 24px;
+}
+.bordachamada{
+    margin-top: 140px;
+}
+.imgfundo-about{
+    background-position: center;
+}
+.rostoredondo{
+    position: relative;
+    left: 21px;
+    margin-bottom: 54px;
+}
+    /*/About*/
+    /*Services*/
+    .celular{
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: justify;
+    }
+   
+    .bordaservices{
+    width: 15%;
+    position: relative;
+    left: 43%;
+    }
+    /*/Services*/
+    /*prices*/
+    .bordaprices, .bordaprices1{
+        display: none;
+    }
+    .facavcmesmo{
+        flex-direction: column;   
+        width: 100%;
+     }
+     .sopracontrariar{
+        width: 100%;
+        margin-left: 0 !important;
+     }
+     .commercialcor{
+        width: 100%;
+        margin-left: 0 !important;
+     }
+     .ecommercecor  {
+        width: 100%;
+        margin-left: 0 !important;
+     }
+     .designcordohquatro{
+        width: 100%;
+        margin-left: 0 !important;
+        left: 0 !important;
+     }
+     .w-50{
+         width: 100% !important;
+     }
+     .precosbotaov2{
+         width: 90% !important;
+     }
+     
+    /*/Prices*
+    /*Carrosel*/
+    .testodaimg1{
+    display: none;
+    }
+    .slides{
+        width: 100%;
+    position: absolute;
+    top: 50%;
+    }
+    .textodaimg h2{
+        font-size: 35px;
+        margin-left: 67px;
+    }
+    /*/Carrosel*/
+    /*Chamada*/
+    .calltoaction{
+        flex-direction: column;
+    }
+    .chamadabotao{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .tamanhofotos{
+        width: 100%;
+    }
+    .backtestemunho{
+        height: 100%;
+    }
+    /*/Chamada*/
+    /*Footer*/
+    .backfooter{
+        height: 136vh;
+    }
+    .footermenu{
+        position: relative;
+        top: 28px;
+        left: 0px;
+    }
+    .pe{
+        width: 100%;
+        flex-direction: column;
+    }
+    .footercor{
+    position: relative;
+    bottom: 33px;
+    left: 0px;
+    margin-left: 20px;
+    }
+    .ftsicones{
+        display: none;
+    }
+    /*/Footer*/
+}
+
+@media(min-width: 641px) and (max-width: 991px){
+    .imgfundo-about{
+        background-position: center;
+    }
+    .aboutcentro {
+        top: 50px;
+    }
+    .aboutcentro p {
+        font-size: 13px;
+        text-align: start;
+        margin-left: 20px;
+     }
+     .celular{
+         flex-direction: column;
+     }
+     .botaodoaboutus {
+         left: 29%;
+     }
+   .bordaservices{
+    display: none;
+   }
+   .teste-desc{
+       font-size: 10px;
+   }
+   .imageed{
+       width: 140px;
+       height: 140px;
+   }
+   .tamanhofotos{
+       padding-left: 0;
+   }
+   .mediatable{
+       width: 140px;
+       height: 140px;
+   }
+   .ftsicones{
+       display: none;
+   }
+   .fts{
+    display: flex;
+    align-items: center;
+    line-height: 8vh;
+   }
+   .iconeprojetos{
+       display: none;
+   }
+   .footercor{
+    margin-top: 0px;
+    font-size: 13px;
+    left: 0px;
+}
+.imgsobre-oeduardo{
+    background-attachment: initial;
+}
+.footersocial{
+ line-height: 0px;
+}
+.testodaimg1 {
+    font-size: 12px;
+ }
+.chamadabotao{
+ width: 100%;
+margin-left: 20px;
+}
+.backtestemunho{
+height: 87vh;
+}
+.botaoprojetos{
+width: 23%;
+}
+.slides{
+width: 100%;
+}
+.fundador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fundadorajuste{
+    top: 280%;
+    right: 24% !important;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bordachamada{
+    margin-top: 130px;
+}
+.bordatouch, .bordatouch1{
+    display: none;
+}
+.concertar:last-child{
+    width: 22% !important;
+}
+.horariodetrabalho{
+    margin: 70px auto;
+    flex-direction: column;
+    align-items: center;
+}
+.controle{
+    left: 0px !important;
+}
+.mapatop{
+    width: 100%;
+}
+.bordacreation, .bordacreation1{
+    display: none;
+}
+.botaoch2021{
+    width: 35% !important;
+}
+.botaorelanguage{
+    width: 35% !important;
+}
+.bordaads, .bordaads1{
+    display: none;
+}
+.fakedf{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.colo6{
+    width: 100%;
+}
+.colo{
+    width: 100%;
+}
+.designfoto{
+    background-attachment: initial !important;
+    height: 63vh !important;
+}
+.ptsize{
+    width: 100% !important;
+    height: 60vh !important;
+    
+}
+/*Prices*/
+.bordaprices, .bordaprices1{
+    display: none;
+}
+.sopracontrariar{
+    margin-left: 0px !important;
+    width: 100%;
+}
+.sopracontrariar p {
+    top: 60px !important;
+}
+.commercialcor{
+    margin-left: 0px !important;
+    width: 100%;
+}
+.commercialcor p{
+    top: 60px !important;
+}
+.ecommercecor{
+    margin-left: 0px !important;
+    width: 100%;
+}
+.ecommercecor p {
+    top: 60px !important;
+}
+.largurades{
+    width: 100% !important;
+}
+.designcordohquatro{
+    margin-left: 0px !important;
+    position: relative;
+    left: 0% !important;
+}
+.designcordohquatro p{
+    top: 60px !important;
+}
+.precosbotao{
+    width: 45% !important;
+}
+/*/Prices*/
+}
+
+@media(min-width:992px) and (max-width: 1199px){
+    .aboutcentro {
+        font-size: 16px;
+    }
+   .aboutcentro p {
+    top: 38px;
+   }
+   .bordaservices{
+       width: 5%;
+   }
+   .chamadabotao{
+       width: 32%;
+   }
+   .botaoprojetos{
+       width: 16%;
+   }
+   .fundadorajuste{
+       right: 15% !important;
+   }
+   .bordatouch{
+      display: none;
+   }
+   .bordatouch1{
+    display: none;
+   }
+   .horariodetrabalho{
+    position: relative;
+    right: 66px;
+   }
+   .bordacreation{
+    display: none;
+   }
+   .bordacreation1{
+    display: none;
+   }
+   .botaoch2021{
+       width: 17% !important;
+   }
+   .botaorelanguage{
+       width: 18% !important;
+   }
+   .paragrafosizetb{
+       font-size: 13px;
+   }
+   .ptsizeicons{
+    width: 20px !important;
+    height: 20px !important;
+   }
+   .precosbotao{
+       width: 80% !important;
+       right: 0px !important;
+   }
+   .sopracontrariar{
+    margin-left: 50px !important;
+   }
+   .bordaprices{
+   display: none;
+   }
+   .bordaprices1{
+  display: none;
+   }
+   .iconedopaypal{
+       display: none;
+   }
+   .iconedopaypalv2{
+       display: none;
+   }
+   .precosbotaov2{
+       right: 0 !important;
+   }
+   .designcordohquatro p {
+    top: 63px !important;
+   }
+}
+
+@media  (min-width:1500px) and (max-width:1980px) {
+    //homepage
+    .imgfundo{
+        height: 57vh;
+    }
+    .backescuro{
+        height: 57vh;
+    }
+    .imgsobre-oeduardo{
+        height: 60vh;
+    }
+    .backazul-oeduardo{
+        height: 60vh;
+    }
+    .aboutcentro{
+        top: 193px;
+    }
+    .bordaservices{
+        width: 6%;
+    }
+    .bordachamada{
+        height: 10vh;
+    }
+    .slides{
+        bottom: 380px;
+    }
+    .slides p {
+        font-size: 24px;
+    }
+    .backtestemunho{
+        height: 60vh;
+    }
+    .backfooter{
+        height: 40vh;
+    }
+    .copyright p {
+        height: 3vh;
+        font-size: 15px;
+    }
+    //final homepage
+    //about us
+    .imgfundo-about{
+        height: 57vh !important;
+        background-position: center;
+    }
+    .backescuro-about{
+        height: 57vh !important;
+    }
+    .procure p {
+        font-size: 23px;
+    }
+    //final about
+    //contato
+    .imgfundo-contact{
+        height: 57vh !important;
+    }
+    .backescuro-contact{
+        height: 57vh !important;
+    }
+    .bordatouch{
+        top: 68% !important;
+        width: 19% !important;
+    }
+    .bordatouch1{
+        top: 68% !important;
+        width: 19% !important;
+        left: 64% !important;
+    }
+    //final contact
+    //Portfolio
+    .imgfundo-portfolio{
+        height: 57vh !important;
+
+    }
+    .backescuro-portfolio{
+        height: 57vh !important;
+    }
+    .bordacreation{
+        top: 68% !important;
+        width: 25% !important;
+    }
+    .bordacreation1{
+        top: 68% !important;
+        width: 25% !important;
+        left: 58% !important;
+    }
+    .paragrafosizetb{
+        position: relative;
+        top: 48px;
+    }
+    .colo{
+        font-size: 20px;
+    }
+    .designfoto p {
+        font-size: 27px;
+        width: 70% !important;
+    }
+    .botaoch2021{
+        margin: 20px auto !important;
+        font-size: 19px;
+        width: 18% !important;
+    }
+    .botaorelanguage{
+        margin: 20px auto !important;
+        font-size: 19px;
+        width: 18% !important;
+    }
+    .botaoadvertisement{
+        font-size: 20px;
+        width: 9% !important;
+    }
+    .botaodesigntop{
+        font-size: 20px;
+        width: 6% !important;
+    }
+    //final Portfolio
+    // Price
+    .imgfundo-prices{
+        height: 57vh !important;
+    }
+    .backescuro-prices{
+        height: 57vh !important;
+    }
+    .bordaprices{
+        width: 27% !important;
+        top: 68% !important;
+    }
+    .bordaprices1{
+        width: 27% !important;
+        top: 68% !important;
+        left: 58% !important;
+    }
+    .precosbotao{
+        height: 4vh !important;
+    }
+    .precosbotaov2{
+        height: 4vh !important;
+    }
+}

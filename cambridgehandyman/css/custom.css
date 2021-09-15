@@ -1,0 +1,375 @@
+body, html{
+   /* font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Sniglet', cursive;
+}
+
+#header{
+    width: 100%;
+    background-color: #00000030;
+    position: absolute;
+    height: 100vh;
+    
+}
+#header .navbar-collapse {
+   flex-grow: unset;
+}
+
+#header .nav-link{
+    color: #fff;
+    font-size: 1.2rem;
+    text-shadow: 2px 1px 1px black;
+    border-bottom: solid 4px transparent;
+}
+#header .nav-link:hover{
+    border-bottom: solid 4px red;
+}
+
+.logocabeca{
+    height: 18vh;
+}
+.trabalho h2{
+    text-align: center;
+    margin-top: 70px;
+}
+.imgfundo{
+    background-image: url(../img/imgdefundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f1f1f1;
+    text-shadow: 1px 1px 5px #000000;
+}
+.red{
+    background-color: red;
+}
+.imgfundo h2{
+    text-align: center;  
+    font-size: 40px;
+    margin: 50px auto;
+    position: relative;
+    top: 60px;
+}
+
+
+.grama{
+    margin-top: 70px;
+    margin-bottom: 15px;
+    background-image: url(../img/cortagrama.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 40vh;
+    width: 100%;
+    border-radius: 1rem;
+    text-shadow: 2px 1px 1px black;
+}
+.grama h2{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.281);
+    position: relative;
+    top: 70%;
+    text-align: center;
+}
+
+.manutencao{
+    margin-top: 70px;
+    margin-bottom: 15px;
+    background-image: url(../img/carro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 40vh;
+    width: 100%;
+    border-radius: 1rem;
+    text-shadow: 2px 1px 1px black;
+}
+.manutencao h2{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.281);
+    position: relative;
+    top: 70%;
+    text-align: center;
+}
+.reparos{
+    margin-top: 70px;
+    margin-bottom: 15px;
+    background-image: url(../img/parafusadeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 40vh;
+    width: 100%;
+    border-radius: 1rem;
+    text-shadow: 2px 1px 1px black;
+}
+.reparos h2{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.281);
+    position: relative;
+    top: 70%;
+    text-align: center;
+}
+.titulo{
+    margin-top: 60px;
+    text-align: center;
+}
+.titulo-um{
+    text-align: center;
+}
+.chamada{
+   
+    margin-top: 70px;
+    background-image: url(../img/telemarketing.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    height: 60vh;
+    width: 100%;
+    color: #fff;
+    text-shadow: 3px 2px 4px black;
+}
+.chamada-dois{
+    background-color: #00000085;
+    height: 60vh;
+}
+.acaocall{
+    position: relative;
+    top: 45px;
+    left: 42%;
+    border: none;
+    border-radius: 2rem;
+    height: 38px;
+    background: #e2231f;
+    color: white;
+}
+.acaocall:hover{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.acao{
+    background-color: var(--primary);
+    position: relative;
+    top: 20%;
+}
+.acao h4{
+    text-align: center;
+    font-size: 20px; 
+    position: relative;
+    top: 18%;
+}
+.gradiente{
+    margin-top: 70px;
+    background: linear-gradient(rgba(8, 16, 23, 1), rgba(255, 1, 1, 0.71));
+    height: 5vh;
+}
+.pergunta{
+    color: #fff;
+    text-align: end;
+}
+.servicos{
+    margin-top: 70px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: start;
+
+}
+.formulario{
+    margin-top: 70px;
+    
+    
+}
+.formulario h2{
+    text-align: center;
+}
+.formulario h4 {
+    text-align: center;
+}
+.enviar{
+    margin-top: 10px;
+}
+.footer{
+    margin-top: 170px;
+    background-image: linear-gradient(rgba(255, 1, 1, 0.71),rgba(8, 16, 23, 1));
+    
+}
+.footerlogo{
+    height: 20vh;
+    width: 26%;
+    margin: 16px auto;
+}
+.nv-altura{
+    margin-top: 30px;
+    list-style: none;
+}
+.nv-a {
+    text-decoration: none;
+    color: #fff;
+}
+.nv-pe{
+    color: #fff;
+    background-color: red;
+    border-radius: 2rem;
+    width: 13vw;
+    text-align: center;
+    font-size: 23px;
+}
+.copyright{
+    text-align: center;
+    background-color: rgba(22, 0, 0, 1);
+    color: #fff;
+    
+}
+.copyright p {
+    margin: auto;
+}
+/*-----------------------------------------------ABOUT---------------------------------------------------------------------------------*/
+#header-about{
+    width: 100%;
+    background-color: #00000030;
+    position: absolute;
+    height: 60vh;
+}
+#header-about .navbar-collapse {
+    flex-grow: unset;
+ }
+ 
+ #header-about .nav-link{
+     color: #fff;
+     font-size: 1.2rem;
+     text-shadow: 2px 1px 1px black;
+     border-bottom: solid 4px transparent;
+ }
+ #header-about .nav-link:hover{
+     border-bottom: solid 4px red;
+ }
+.about-imgfundo{
+    background-image: url(../img/imgdefundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 3px 1px 3px black;
+}
+
+.about-imgfundo h2{
+    position: relative;
+    top: 20%;
+}
+.about-edis{
+    margin-top: 70px;
+}
+.fotodoedis{
+    border-radius: 2rem;
+}
+.about-trabalho{
+    text-align: center;
+}
+.about-desc{
+    margin-top: 70px;
+}
+.cover{
+    margin-top: 70px;
+    text-align: left;
+}
+.cover h3{
+    margin: 30px auto;
+    font-weight: 900;
+    text-align: center;
+}
+.barra{
+    background-image: linear-gradient(rgba(255, 1, 1, 0.71),rgba(8, 16, 23, 1));
+    height: 5vh;
+}
+/*-----------------------------------Contact---------------------------------------------------------------------------------------*/
+#header-contact{
+    width: 100%;
+    background-color: #00000030;
+    position: absolute;
+    height: 60vh;
+}
+#header-contact .navbar-collapse {
+    flex-grow: unset;
+ }
+ 
+ #header-contact .nav-link{
+     color: #fff;
+     font-size: 1.2rem;
+     text-shadow: 2px 1px 1px black;
+     border-bottom: solid 4px transparent;
+ }
+ #header-contact .nav-link:hover{
+     border-bottom: solid 4px red;
+ }
+.contact-imgfundo{
+    background-image: url(../img/callcenter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 3px 1px 3px black;
+}
+.contact-imgfundo h2{
+    position: relative;
+    top: 20%;
+}
+.contatoespaco{
+    margin-top: 70px;
+}
+
+
+.contato h2 {
+    margin-top: 70px;
+}
+.contato h3 {
+    text-align: center;
+    font-weight: 900;
+    margin: 50px auto;
+    height: 1vh;
+}
+.contato p {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.controlaltura{
+    margin-top: 70px;
+}
+.controlaltura h4{
+    margin-top: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+.barracontato{
+    background-image: linear-gradient(rgba(255, 1, 1, 0.71),rgba(8, 16, 23, 1));
+    height: 6vh;
+    margin: 100px auto;
+}
+.barracontato h3 {
+    color: white;
+    text-align: center;
+}
+
+.massacration {
+    color: green;
+    text-align: center;
+    
+}
+.massa{
+    color: rgb(0, 0, 0);
+}
+.massac{
+    color: rgb(0, 0, 0);
+}

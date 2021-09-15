@@ -1,0 +1,51 @@
+.seusiteprecisava{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    color: rgb(0, 0, 0);
+}
+.bordaseusiteprecisava{
+    background-image: $botaocornormal;
+    height: 5px;
+    width: 29%;
+    border-radius: 2rem;
+}
+.tamanhodaimg{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+.primeiroslide{
+    background: #884f3282;
+    height: 20vh;
+    border-radius: 1rem;
+}
+.segundoslide{
+    background: #00000082;
+    height: 20vh;
+    border-radius: 1rem;
+}
+.terceiroslide{
+    background: #00000082;
+    height: 20vh;
+    border-radius: 1rem;
+}
+.textodaimg h2{
+    font-size: 50px;
+}
+.terceiroslide{
+    background: #00000082;
+    height: 20vh;
+    border-radius: 1rem;
+}
+.slides{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 190px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #2600bf;
+    margin: auto;
+    width: 80%;
+}

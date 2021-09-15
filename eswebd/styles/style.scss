@@ -1,0 +1,35 @@
+$botaocornormal : linear-gradient(rgba(1, 243, 229, 1),rgba(32, 56, 84, 1));
+$withphotocorback:  linear-gradient(rgba(1, 243, 231, 0.274),rgba(32, 56, 84, 1));
+$botaocorescura: linear-gradient(rgba(14, 38, 99, 0),rgba(32, 56, 84, 1));
+$botaocorinvertida :  linear-gradient(rgb(32, 56, 84),rgba(1, 243, 231, 0.986));
+$caixaservico :  linear-gradient(rgba(16, 197, 197, 1),rgba(14, 50, 50, 0.74));
+$backfooter : linear-gradient(rgba(29, 37, 37, 1),rgba(32, 56, 84, 1));
+*{
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Reem Kufi', sans-serif
+    }
+    //homepage
+@import  './homepage/hpheader';
+@import './homepage/hpprocure';
+@import './homepage/hpaboutus';
+@import './homepage/hpservices';
+@import './homepage/hpcarrosel';
+@import './homepage/hpchamada';
+@import './homepage/hptestemunho';
+@import './homepage/hprecentepro';
+@import './homepage/hpfooter';
+@import './homepage/notfound';
+@import './homepage/hpmediaqueries';
+
+//about
+@import './about/abheader';
+//contact
+@import './contact/ctheader';
+//portfolio
+@import './portfolio/portfolio';
+//prices
+@import './prices/prices';
+@import './prices/ad';
+

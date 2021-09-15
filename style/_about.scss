@@ -1,0 +1,60 @@
+.transicao2{
+    height: 39vh;
+    background-image: url(../img/escuroabout2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about{
+    background: url(../img/escuroabout2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+
+}
+.titleabout{
+    color: white;
+    font-family: 'Annie Use Your Telescope', cursive;
+    text-align: end;
+   h2{
+    font-weight: lighter;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+   }
+}
+.about-desc{
+    p{
+        text-align: center;
+        font-family: 'Annie Use Your Telescope', cursive;
+        text-shadow: 1px 1px 1px black;
+        font-size: 25px;
+        width: 50%;
+    }
+    color: white;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    text-align: -webkit-center;
+}
+.estudo{
+    margin-top: 50px;
+    width: 50%;
+    font-family: 'Annie Use Your Telescope', cursive;
+   
+    h5{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    
+}
+
+.centralizar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+}

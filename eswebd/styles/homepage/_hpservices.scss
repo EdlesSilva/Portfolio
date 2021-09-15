@@ -1,0 +1,35 @@
+.services {
+    margin-top: 70px;
+    color: black;
+}
+.bordaservices{
+   
+    background-image: $botaocornormal;
+    height: 5px;
+    width: 87px;
+    border-radius: 2rem;
+    position: relative;
+    left: 47%;
+}
+.des-cor{
+    background-image:$caixaservico;
+    color: #fff;
+    text-shadow: 0px 2px 4px black;
+    border-radius: 2rem;
+    width: 100%;
+   text-align: start;
+    margin-top: 70px;
+}
+.des-icone{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 38px;
+    top: 27px;
+}
+.des-mover{
+    margin-top: 50px;
+}
+.iconetexto{
+    margin-left: 54px;
+}

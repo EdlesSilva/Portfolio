@@ -1,0 +1,37 @@
+.testemunho{
+    margin-top: 145px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    color: rgb(0, 0, 0);
+    }
+    .bordatestemunho{
+        background-image: $botaocornormal;
+        height: 5px;
+        width: 12%;
+        border-radius: 2rem;
+    }
+    .backtestemunho{
+        background-image:  $botaocornormal;
+        color: #fff;
+        text-shadow: 1px 1px 5px rgb(70, 76, 117);
+        height: 80vh;
+    }
+    .testsegtitulo h3{
+        position: relative;
+        top: 30px;
+    }
+    .imageed{
+        width: 200px;
+        height: 200px;
+        border-radius: 6rem;
+        object-fit: cover;
+        margin-top: 60px;
+    
+    }
+    .teste-desc p:first-child{
+        font-family: 'Playball', cursive;
+        margin-top: 20px;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+  

@@ -1,0 +1,103 @@
+@media (max-width: 375px) {
+    .imgfundo{
+        background-position: center;
+    }
+    #header{
+        height: 60vh;
+    }
+    .acaocall {
+        position: relative;
+        left: 65px;
+        font-size: 23px;
+    }
+    .barracontato{
+        text-align: center;
+        
+    }
+    .chamada{
+        background-position: center;
+    }
+    .icon{
+        display: none;
+    }
+   .grama{
+       background-position: center;
+       margin-bottom: 15px;
+   }
+   .manutencao{
+    background-position: center;
+    margin-bottom: 15px;
+}
+   .reparos{
+       background-position: center;
+       margin-bottom: 15px;
+   }
+   .footer{
+       margin-top: 90px;
+       height: 90vh;
+   }
+   .nv-altura h2{
+       width: 47vw;
+   }
+   .copyright{
+       margin: auto;
+       
+   }
+   .fotodoedis{
+       width: 100%;
+       margin-bottom: 15px;
+   }
+}
+
+@media (max-width: 768px) {
+    .imgfundo{
+        background-position: center;
+    }
+    #header{
+        height: 100vh;
+    }
+    .umbelodia{
+    font-size: 26px;
+    margin: 0px 10px 10px -45px;
+    }
+   
+    .icon{
+        display: none;
+    }
+    .grama{
+        background-position: center;
+        margin-bottom: 15px;
+    }
+    .manutencao{
+     background-position: center;
+     margin-bottom: 15px;
+ }
+    .reparos{
+        background-position: center;
+        margin-bottom: 15px;
+    }
+    .about-desc{
+        margin-top: 25px;
+    }
+   .nv-pe{
+    width: 20vw;
+   }
+   .fotodoedis{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    
+}
+.esc{
+    display: none;
+}
+.contact-imgfundo{
+background-position: center;
+}
+.barracontato h3{
+position: relative;
+top: 15px;
+}
+
+
+}

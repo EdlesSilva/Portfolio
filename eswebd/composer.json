@@ -1,0 +1,8 @@
+{
+    "name": "devedles/env",
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/"
+        }
+    }
+}

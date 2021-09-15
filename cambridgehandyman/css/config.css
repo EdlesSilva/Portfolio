@@ -1,0 +1,5 @@
+:root{
+    --primary: rgba(255, 10, 10, 0.79);
+    --secondary: rgba(8, 16, 23, 1) ;
+    --lineargradient:  (rgba(8, 16, 23, 1), rgba(255, 1, 1, 0.71));
+}

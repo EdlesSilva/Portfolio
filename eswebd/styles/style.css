@@ -1,0 +1,1688 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Reem Kufi", sans-serif;
+}
+
+.logo {
+  width: 200px;
+  height: 130px;
+}
+
+.socialmediavdois {
+  position: relative;
+  left: 15px;
+  margin-left: 9px;
+  width: 27px;
+  height: 27px;
+}
+
+.imgfundo {
+  background-image: url(../imgs/homepage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 85vh;
+}
+
+.backescuro {
+  background-image: linear-gradient(rgba(14, 38, 99, 0), #203854);
+  height: 85vh;
+}
+
+.navbar-nav {
+  background-color: #167885;
+  border-radius: 2rem;
+  padding: 1px 3px;
+}
+
+.nav-link {
+  border-radius: 2rem;
+  border: none;
+  font-weight: 200;
+  color: #fff;
+  margin: 2px 6px;
+}
+
+.nav-link:last-child {
+  background-image: linear-gradient(#1f429b, rgba(4, 4, 4, 0.76));
+  color: white;
+}
+
+.nav-link strong {
+  color: white;
+  font-weight: lighter;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: black;
+  border-radius: 2rem;
+  border: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.socialmedia {
+  position: relative;
+  left: 15px;
+  margin-left: 0px;
+}
+
+.bordadotopo {
+  background-image: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  height: 2vh;
+}
+
+.titulo-site {
+  color: #fff;
+  text-shadow: 1px 0px 10px #050505;
+  position: relative;
+  top: 104px;
+}
+
+.botaoheader {
+  background-image: linear-gradient(#01f3e5, #203854);
+  color: #fff;
+  border: none;
+  width: 218px;
+  height: 33px;
+  border-radius: 8px;
+  margin-top: 52px;
+  text-shadow: 1px 0px 2px black;
+  font-weight: lighter;
+}
+
+.bordaheaderbottom {
+  background-image: linear-gradient(#01f3e5, #203854);
+  color: #fff;
+  height: 8vh;
+  width: 100%;
+}
+
+.bordaheaderbottom p {
+  margin: 15px auto;
+  text-shadow: 1px 1px 6px black;
+  font-weight: lighter;
+}
+
+.procure {
+  margin-top: 70px;
+}
+
+.procure h2 {
+  color: black;
+  margin: 44px auto;
+}
+
+.quotetamanho {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 48px;
+  bottom: 2px;
+}
+
+.about-read {
+  margin-top: 100px;
+  margin-left: 25px;
+  color: black;
+}
+
+.bordaabout {
+  background-image: linear-gradient(#01f3e5, #203854);
+  height: 5px;
+  width: 124px;
+  border-radius: 2rem;
+}
+
+.imgsobre-oeduardo {
+  background-image: url(../imgs/mac.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 60vh;
+}
+
+.backazul-oeduardo {
+  background-image: linear-gradient(rgba(1, 243, 231, 0.274), #203854);
+  height: 60vh;
+}
+
+.aboutcentro {
+  color: #ffffff;
+  margin: 10px auto;
+  position: relative;
+  top: 85px;
+  text-shadow: 1px 3px 3px black;
+  font-size: 20px;
+}
+
+.aboutcentro p {
+  position: relative;
+  top: 27px;
+}
+
+.botaodoaboutus {
+  position: relative;
+  left: 39%;
+  top: 45px;
+  border: 1px solid white;
+  border-radius: 1rem;
+  background: transparent;
+  width: 110px;
+  height: 32px;
+  color: white;
+}
+
+.botaodoaboutus:hover {
+  background-color: rgba(1, 243, 229, 0.9);
+  color: #fff;
+}
+
+.services {
+  margin-top: 70px;
+  color: black;
+}
+
+.bordaservices {
+  background-image: linear-gradient(#01f3e5, #203854);
+  height: 5px;
+  width: 87px;
+  border-radius: 2rem;
+  position: relative;
+  left: 47%;
+}
+
+.des-cor {
+  background-image: linear-gradient(#10c5c5, rgba(14, 50, 50, 0.74));
+  color: #fff;
+  text-shadow: 0px 2px 4px black;
+  border-radius: 2rem;
+  width: 100%;
+  text-align: start;
+  margin-top: 70px;
+}
+
+.des-icone {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 38px;
+  top: 27px;
+}
+
+.des-mover {
+  margin-top: 50px;
+}
+
+.iconetexto {
+  margin-left: 54px;
+}
+
+.seusiteprecisava {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+  color: black;
+}
+
+.bordaseusiteprecisava {
+  background-image: linear-gradient(#01f3e5, #203854);
+  height: 5px;
+  width: 29%;
+  border-radius: 2rem;
+}
+
+.tamanhodaimg {
+  width: 100%;
+  height: 60vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.primeiroslide {
+  background: #884f3282;
+  height: 20vh;
+  border-radius: 1rem;
+}
+
+.segundoslide {
+  background: #00000082;
+  height: 20vh;
+  border-radius: 1rem;
+}
+
+.terceiroslide {
+  background: #00000082;
+  height: 20vh;
+  border-radius: 1rem;
+}
+
+.textodaimg h2 {
+  font-size: 50px;
+}
+
+.terceiroslide {
+  background: #00000082;
+  height: 20vh;
+  border-radius: 1rem;
+}
+
+.slides {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  bottom: 190px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #2600bf;
+  margin: auto;
+  width: 80%;
+}
+
+.bordachamada {
+  background-image: linear-gradient(#01f3e5, #203854);
+  height: 25vh;
+  width: 100%;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.chamadabotao {
+  background: transparent;
+  color: #fff;
+  border: 2px solid white;
+  border-radius: 2rem;
+  font-size: 25px;
+  width: 27%;
+}
+
+.testemunho {
+  margin-top: 145px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+  color: black;
+}
+
+.bordatestemunho {
+  background-image: linear-gradient(#01f3e5, #203854);
+  height: 5px;
+  width: 12%;
+  border-radius: 2rem;
+}
+
+.backtestemunho {
+  background-image: linear-gradient(#01f3e5, #203854);
+  color: #fff;
+  text-shadow: 1px 1px 5px #464c75;
+  height: 80vh;
+}
+
+.testsegtitulo h3 {
+  position: relative;
+  top: 30px;
+}
+
+.imageed {
+  width: 200px;
+  height: 200px;
+  border-radius: 6rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 60px;
+}
+
+.teste-desc p:first-child {
+  font-family: "Playball", cursive;
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.projetos {
+  margin: 50px auto;
+}
+
+.iconeprojetos {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 39px;
+}
+
+.botaoprojetos {
+  background-image: linear-gradient(#01f3e5, #203854);
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 20px;
+  width: 15%;
+  text-align: center;
+}
+
+.backfooter {
+  background-image: linear-gradient(#1d2525, #203854);
+  height: 70vh;
+}
+
+.footericones {
+  width: 30px;
+  height: 30px;
+}
+
+.footercor {
+  color: #fff;
+  margin-top: 70px;
+  position: relative;
+  left: 17px;
+}
+
+.footercor h5 {
+  font-weight: lighter;
+  font-family: "Reem Kufi";
+}
+
+.footermenu {
+  color: #fff;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  position: relative;
+  top: 43%;
+  line-height: 38px;
+  left: 50px;
+}
+
+.footersocial {
+  color: #fff;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  position: relative;
+  top: 43%;
+  line-height: 50px;
+}
+
+.fts {
+  text-decoration: none;
+  color: #fff;
+}
+
+.ftsicones {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 10px;
+}
+
+.copyright {
+  color: #fff;
+  background-color: #0c1824;
+}
+
+.copyright p {
+  margin: 0 auto;
+  font-weight: lighter;
+  font-family: "Reem Kufi", sans-serif;
+  font-size: 10px;
+  align-items: center;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+}
+
+.notfound {
+  margin: 50px auto;
+}
+
+@media (min-width: 240px) and (max-width: 640px) {
+  body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  /*Header*/
+  .imgfundo {
+    width: 100%;
+    background-position: center;
+    height: 95vh;
+  }
+
+  .botaoheader {
+    width: 100%;
+  }
+
+  .backescuro {
+    height: 95vh;
+  }
+
+  .titulo-site {
+    width: 100%;
+  }
+
+  /*Procure*/
+  .procure {
+    width: 100%;
+  }
+
+  .botaoprojetos {
+    width: 34%;
+    margin-left: 10px;
+  }
+
+  .iconeprojetos {
+    display: none;
+  }
+
+  /*/Procure*/
+  /*/Header*/
+  .bordatouch, .bordatouch1 {
+    display: none;
+  }
+
+  .concertar {
+    width: 50% !important;
+  }
+
+  .controle {
+    position: relative !important;
+    left: 0% !important;
+  }
+
+  .mapatop {
+    width: 100%;
+  }
+
+  .bordaworking {
+    width: 32% !important;
+    left: 34% !important;
+  }
+
+  /*portfolio*/
+  .bordacreation, .bordacreation1 {
+    display: none;
+  }
+
+  .botaoch2021 {
+    width: 50% !important;
+  }
+
+  .botaorelanguage {
+    width: 50% !important;
+  }
+
+  .bordaads, .bordaads1 {
+    display: none;
+  }
+
+  .sizeanima {
+    width: 97px !important;
+    height: 88px !important;
+    margin-bottom: 50px;
+  }
+
+  .botaoadvertisement {
+    width: 50% !important;
+  }
+
+  .designfoto p {
+    font-size: 16px;
+    width: 100% !important;
+  }
+
+  .botaodesigntop {
+    width: 50% !important;
+  }
+
+  /*/portfolio*/
+  /*Everythin*/
+  .seusiteprecisava {
+    margin-left: 5px !important;
+  }
+
+  /*/everything*/
+  /*testemunho*/
+  .testemunho {
+    margin-left: 5px !important;
+  }
+
+  .bordatestemunho {
+    width: 30% !important;
+  }
+
+  .designfoto {
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-attachment: initial !important;
+  }
+
+  /*/testemunho*/
+  /*About*/
+  .about-read {
+    margin-left: 5px !important;
+  }
+
+  .aboutcentro {
+    margin: 50px auto;
+    font-size: 12px;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: -15px;
+  }
+
+  .imgsobre-oeduardo {
+    height: 65vh;
+    background-attachment: initial !important;
+  }
+
+  .backazul-oeduardo {
+    height: 65vh;
+  }
+
+  .col-6 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .botaodoaboutus {
+    left: 0%;
+  }
+
+  .fundadorajuste {
+    left: 24px;
+    top: 42%;
+  }
+
+  .fundador {
+    position: relative;
+    right: 24px;
+  }
+
+  .bordachamada {
+    margin-top: 140px;
+  }
+
+  .imgfundo-about {
+    background-position: center;
+  }
+
+  .rostoredondo {
+    position: relative;
+    left: 21px;
+    margin-bottom: 54px;
+  }
+
+  /*/About*/
+  /*Services*/
+  .celular {
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .bordaservices {
+    width: 15%;
+    position: relative;
+    left: 43%;
+  }
+
+  /*/Services*/
+  /*prices*/
+  .bordaprices, .bordaprices1 {
+    display: none;
+  }
+
+  .facavcmesmo {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .sopracontrariar {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .commercialcor {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .ecommercecor {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .designcordohquatro {
+    width: 100%;
+    margin-left: 0 !important;
+    left: 0 !important;
+  }
+
+  .w-50 {
+    width: 100% !important;
+  }
+
+  .precosbotaov2 {
+    width: 90% !important;
+  }
+
+  /*/Prices*
+  /*Carrosel*/
+  .testodaimg1 {
+    display: none;
+  }
+
+  .slides {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+  }
+
+  .textodaimg h2 {
+    font-size: 35px;
+    margin-left: 67px;
+  }
+
+  /*/Carrosel*/
+  /*Chamada*/
+  .calltoaction {
+    flex-direction: column;
+  }
+
+  .chamadabotao {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .tamanhofotos {
+    width: 100%;
+  }
+
+  .backtestemunho {
+    height: 100%;
+  }
+
+  /*/Chamada*/
+  /*Footer*/
+  .backfooter {
+    height: 136vh;
+  }
+
+  .footermenu {
+    position: relative;
+    top: 28px;
+    left: 0px;
+  }
+
+  .pe {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .footercor {
+    position: relative;
+    bottom: 33px;
+    left: 0px;
+    margin-left: 20px;
+  }
+
+  .ftsicones {
+    display: none;
+  }
+
+  /*/Footer*/
+}
+@media (min-width: 641px) and (max-width: 991px) {
+  .imgfundo-about {
+    background-position: center;
+  }
+
+  .aboutcentro {
+    top: 50px;
+  }
+
+  .aboutcentro p {
+    font-size: 13px;
+    text-align: start;
+    margin-left: 20px;
+  }
+
+  .celular {
+    flex-direction: column;
+  }
+
+  .botaodoaboutus {
+    left: 29%;
+  }
+
+  .bordaservices {
+    display: none;
+  }
+
+  .teste-desc {
+    font-size: 10px;
+  }
+
+  .imageed {
+    width: 140px;
+    height: 140px;
+  }
+
+  .tamanhofotos {
+    padding-left: 0;
+  }
+
+  .mediatable {
+    width: 140px;
+    height: 140px;
+  }
+
+  .ftsicones {
+    display: none;
+  }
+
+  .fts {
+    display: flex;
+    align-items: center;
+    line-height: 8vh;
+  }
+
+  .iconeprojetos {
+    display: none;
+  }
+
+  .footercor {
+    margin-top: 0px;
+    font-size: 13px;
+    left: 0px;
+  }
+
+  .imgsobre-oeduardo {
+    background-attachment: initial;
+  }
+
+  .footersocial {
+    line-height: 0px;
+  }
+
+  .testodaimg1 {
+    font-size: 12px;
+  }
+
+  .chamadabotao {
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .backtestemunho {
+    height: 87vh;
+  }
+
+  .botaoprojetos {
+    width: 23%;
+  }
+
+  .slides {
+    width: 100%;
+  }
+
+  .fundador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fundadorajuste {
+    top: 280%;
+    right: 24% !important;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .bordachamada {
+    margin-top: 130px;
+  }
+
+  .bordatouch, .bordatouch1 {
+    display: none;
+  }
+
+  .concertar:last-child {
+    width: 22% !important;
+  }
+
+  .horariodetrabalho {
+    margin: 70px auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .controle {
+    left: 0px !important;
+  }
+
+  .mapatop {
+    width: 100%;
+  }
+
+  .bordacreation, .bordacreation1 {
+    display: none;
+  }
+
+  .botaoch2021 {
+    width: 35% !important;
+  }
+
+  .botaorelanguage {
+    width: 35% !important;
+  }
+
+  .bordaads, .bordaads1 {
+    display: none;
+  }
+
+  .fakedf {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .colo6 {
+    width: 100%;
+  }
+
+  .colo {
+    width: 100%;
+  }
+
+  .designfoto {
+    background-attachment: initial !important;
+    height: 63vh !important;
+  }
+
+  .ptsize {
+    width: 100% !important;
+    height: 60vh !important;
+  }
+
+  /*Prices*/
+  .bordaprices, .bordaprices1 {
+    display: none;
+  }
+
+  .sopracontrariar {
+    margin-left: 0px !important;
+    width: 100%;
+  }
+
+  .sopracontrariar p {
+    top: 60px !important;
+  }
+
+  .commercialcor {
+    margin-left: 0px !important;
+    width: 100%;
+  }
+
+  .commercialcor p {
+    top: 60px !important;
+  }
+
+  .ecommercecor {
+    margin-left: 0px !important;
+    width: 100%;
+  }
+
+  .ecommercecor p {
+    top: 60px !important;
+  }
+
+  .largurades {
+    width: 100% !important;
+  }
+
+  .designcordohquatro {
+    margin-left: 0px !important;
+    position: relative;
+    left: 0% !important;
+  }
+
+  .designcordohquatro p {
+    top: 60px !important;
+  }
+
+  .precosbotao {
+    width: 45% !important;
+  }
+
+  /*/Prices*/
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .aboutcentro {
+    font-size: 16px;
+  }
+
+  .aboutcentro p {
+    top: 38px;
+  }
+
+  .bordaservices {
+    width: 5%;
+  }
+
+  .chamadabotao {
+    width: 32%;
+  }
+
+  .botaoprojetos {
+    width: 16%;
+  }
+
+  .fundadorajuste {
+    right: 15% !important;
+  }
+
+  .bordatouch {
+    display: none;
+  }
+
+  .bordatouch1 {
+    display: none;
+  }
+
+  .horariodetrabalho {
+    position: relative;
+    right: 66px;
+  }
+
+  .bordacreation {
+    display: none;
+  }
+
+  .bordacreation1 {
+    display: none;
+  }
+
+  .botaoch2021 {
+    width: 17% !important;
+  }
+
+  .botaorelanguage {
+    width: 18% !important;
+  }
+
+  .paragrafosizetb {
+    font-size: 13px;
+  }
+
+  .ptsizeicons {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .precosbotao {
+    width: 80% !important;
+    right: 0px !important;
+  }
+
+  .sopracontrariar {
+    margin-left: 50px !important;
+  }
+
+  .bordaprices {
+    display: none;
+  }
+
+  .bordaprices1 {
+    display: none;
+  }
+
+  .iconedopaypal {
+    display: none;
+  }
+
+  .iconedopaypalv2 {
+    display: none;
+  }
+
+  .precosbotaov2 {
+    right: 0 !important;
+  }
+
+  .designcordohquatro p {
+    top: 63px !important;
+  }
+}
+@media (min-width: 1500px) and (max-width: 1980px) {
+  .imgfundo {
+    height: 57vh;
+  }
+
+  .backescuro {
+    height: 57vh;
+  }
+
+  .imgsobre-oeduardo {
+    height: 60vh;
+  }
+
+  .backazul-oeduardo {
+    height: 60vh;
+  }
+
+  .aboutcentro {
+    top: 193px;
+  }
+
+  .bordaservices {
+    width: 6%;
+  }
+
+  .bordachamada {
+    height: 10vh;
+  }
+
+  .slides {
+    bottom: 380px;
+  }
+
+  .slides p {
+    font-size: 24px;
+  }
+
+  .backtestemunho {
+    height: 60vh;
+  }
+
+  .backfooter {
+    height: 40vh;
+  }
+
+  .copyright p {
+    height: 3vh;
+    font-size: 15px;
+  }
+
+  .imgfundo-about {
+    height: 57vh !important;
+    background-position: center;
+  }
+
+  .backescuro-about {
+    height: 57vh !important;
+  }
+
+  .procure p {
+    font-size: 23px;
+  }
+
+  .imgfundo-contact {
+    height: 57vh !important;
+  }
+
+  .backescuro-contact {
+    height: 57vh !important;
+  }
+
+  .bordatouch {
+    top: 68% !important;
+    width: 19% !important;
+  }
+
+  .bordatouch1 {
+    top: 68% !important;
+    width: 19% !important;
+    left: 64% !important;
+  }
+
+  .imgfundo-portfolio {
+    height: 57vh !important;
+  }
+
+  .backescuro-portfolio {
+    height: 57vh !important;
+  }
+
+  .bordacreation {
+    top: 68% !important;
+    width: 25% !important;
+  }
+
+  .bordacreation1 {
+    top: 68% !important;
+    width: 25% !important;
+    left: 58% !important;
+  }
+
+  .paragrafosizetb {
+    position: relative;
+    top: 48px;
+  }
+
+  .colo {
+    font-size: 20px;
+  }
+
+  .designfoto p {
+    font-size: 27px;
+    width: 70% !important;
+  }
+
+  .botaoch2021 {
+    margin: 20px auto !important;
+    font-size: 19px;
+    width: 18% !important;
+  }
+
+  .botaorelanguage {
+    margin: 20px auto !important;
+    font-size: 19px;
+    width: 18% !important;
+  }
+
+  .botaoadvertisement {
+    font-size: 20px;
+    width: 9% !important;
+  }
+
+  .botaodesigntop {
+    font-size: 20px;
+    width: 6% !important;
+  }
+
+  .imgfundo-prices {
+    height: 57vh !important;
+  }
+
+  .backescuro-prices {
+    height: 57vh !important;
+  }
+
+  .bordaprices {
+    width: 27% !important;
+    top: 68% !important;
+  }
+
+  .bordaprices1 {
+    width: 27% !important;
+    top: 68% !important;
+    left: 58% !important;
+  }
+
+  .precosbotao {
+    height: 4vh !important;
+  }
+
+  .precosbotaov2 {
+    height: 4vh !important;
+  }
+}
+.imgfundo-about {
+  background-image: url(../imgs/aboutpage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 85vh;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black !important;
+}
+
+.backescuro-about {
+  background-image: linear-gradient(rgba(14, 38, 99, 0), #203854);
+  height: 85vh;
+}
+
+.bordabegin {
+  background-image: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  height: 5px;
+  width: 15%;
+  border-radius: 2rem;
+  position: relative;
+  left: 42%;
+  bottom: 34px;
+}
+
+.aboutpageimg {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.rostoredondo {
+  width: 200px;
+  height: 200px;
+  border-radius: 8rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 1px 1px 6px black;
+}
+
+.pompiere {
+  font-family: "Pompiere", cursive;
+  font-weight: 600;
+}
+
+.fundador {
+  margin: 70px auto;
+  text-align: center;
+}
+
+.fundadorajuste {
+  position: absolute;
+  right: 19%;
+  margin-top: 118px;
+}
+.fundadorajuste h4 {
+  font-size: 30px;
+}
+
+.imgfundo-contact {
+  background-image: url(../imgs/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 85vh;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black !important;
+}
+
+.backescuro-contact {
+  background-image: linear-gradient(rgba(14, 38, 99, 0), #203854);
+  height: 85vh;
+}
+
+.bordatouch {
+  background-image: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  height: 8px;
+  width: 20%;
+  position: absolute;
+  top: 101%;
+}
+
+.bordatouch1 {
+  background-image: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  height: 8px;
+  width: 20%;
+  position: absolute;
+  top: 101%;
+  left: 70%;
+}
+
+.contato-touch {
+  position: relative;
+  bottom: 30px;
+}
+
+.formulariobolado {
+  display: flex;
+  justify-content: center;
+  align-items: initial;
+  flex-direction: column;
+  border: none;
+}
+
+.concertar {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.concertar:last-child {
+  background: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  color: #fff;
+  width: 15%;
+  border: none;
+  border-radius: 2rem;
+  margin: 50px auto;
+  text-shadow: 1px 1px 6px black;
+}
+
+.bordaworking {
+  background-image: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  height: 8px;
+  width: 10%;
+  position: relative;
+  left: 45%;
+  border-radius: 2rem;
+}
+
+.espacoworking {
+  margin-top: 70px;
+}
+
+.contacticon {
+  width: 20px;
+  height: 20px;
+}
+
+.controle {
+  margin: 50px auto;
+  text-align: start;
+  position: relative;
+  left: 32%;
+}
+
+.horariodetrabalho {
+  margin: 70px auto;
+}
+
+.enviado {
+  color: green;
+  border: 1px solid green;
+  background: #9cf59c;
+}
+
+.naoenviado {
+  color: red;
+}
+
+.imgfundo-portfolio {
+  background-image: url(../imgs/portfolio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  width: 100%;
+  height: 85vh;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black !important;
+}
+
+.backescuro-portfolio {
+  background-image: linear-gradient(rgba(14, 38, 99, 0), #203854);
+  height: 85vh;
+}
+
+.bordacreation {
+  background-image: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  height: 8px;
+  width: 20%;
+  position: absolute;
+  top: 101%;
+}
+
+.bordacreation1 {
+  background-image: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  height: 8px;
+  width: 20%;
+  position: absolute;
+  top: 101%;
+  left: 70%;
+}
+
+.botaoch2021 {
+  background: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  color: #fff;
+  width: 15%;
+  border: none;
+  border-radius: 2rem;
+  margin: 50px auto;
+  text-shadow: 1px 1px 6px black;
+}
+
+.botaorelanguage {
+  background: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  color: #fff;
+  width: 15%;
+  border: none;
+  border-radius: 2rem;
+  margin: 50px auto;
+  text-shadow: 1px 1px 6px black;
+}
+
+.botaoadvertisement {
+  background: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  color: #fff;
+  width: 15%;
+  border: none;
+  border-radius: 2rem;
+  margin: 50px auto;
+  text-shadow: 1px 1px 6px black;
+}
+
+.botaodesigntop {
+  background: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  color: #fff;
+  width: 15%;
+  border: none;
+  border-radius: 2rem;
+  margin: 50px auto;
+  text-shadow: 1px 1px 6px black;
+}
+
+.ptsize {
+  width: 100%;
+  height: 39vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.ptsizeicons {
+  width: 30px;
+  height: 30px;
+}
+
+.bordaads {
+  background-image: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  height: 8px;
+  width: 35%;
+  position: relative;
+  bottom: 60px;
+}
+
+.bordaads1 {
+  background-image: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  height: 8px;
+  width: 35%;
+  position: relative;
+  bottom: 67px;
+  left: 66%;
+}
+
+.sizeanima {
+  width: 132px;
+  height: 110px;
+}
+
+.designfoto {
+  background-image: url(../imgs/design.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 60vh;
+  margin-bottom: 70px;
+}
+.designfoto p {
+  color: #fff;
+  text-shadow: 1px 1px 1px black;
+  width: 50%;
+  margin-top: 93px;
+  background-color: rgba(0, 0, 0, 0.404);
+  border-radius: 0.5rem;
+  width: 50%;
+}
+
+.imgfundo-prices {
+  background-image: url(../imgs/prices.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  width: 100%;
+  height: 85vh;
+}
+
+.backescuro-prices {
+  background-image: linear-gradient(rgba(14, 38, 99, 0), #203854);
+  height: 85vh;
+}
+
+.bordaprices {
+  background-image: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  height: 8px;
+  width: 30%;
+  position: absolute;
+  top: 101%;
+}
+
+.bordaprices1 {
+  background-image: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  height: 8px;
+  width: 30%;
+  position: absolute;
+  top: 101%;
+  left: 60%;
+}
+
+.iconestudopequeno {
+  width: 25px;
+  height: 25px;
+}
+
+.sopracontrariar {
+  box-shadow: 1px 1px 9px black;
+  margin-bottom: 50px;
+  margin-left: 77px;
+}
+.sopracontrariar h4 {
+  margin: -10px auto;
+  background-color: #950000;
+  color: #fff;
+}
+.sopracontrariar p {
+  text-align: start;
+  position: relative;
+  top: 23px;
+}
+
+.precosbotao {
+  width: 90%;
+  background: linear-gradient(#203854, rgba(1, 243, 231, 0.986));
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  margin: 15px auto;
+  text-shadow: 1px 1px 6px black;
+  height: 6vh;
+  position: relative;
+  right: 13px;
+}
+
+.iconedopaypal {
+  position: relative;
+  left: 26px;
+  bottom: 3px;
+  z-index: 99;
+}
+
+.facavcmesmo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.commercialcor {
+  box-shadow: 1px 1px 9px black;
+  margin-bottom: 50px;
+  margin-left: 77px;
+}
+.commercialcor h4 {
+  margin: -10px auto;
+  background-color: #0034eb;
+  color: #fff;
+}
+.commercialcor p {
+  text-align: start;
+  position: relative;
+  top: 23px;
+}
+
+.ecommercecor {
+  box-shadow: 1px 1px 9px black;
+  margin-bottom: 50px;
+  margin-left: 77px;
+}
+.ecommercecor h4 {
+  margin: -10px auto;
+  background-color: #1c871a;
+  color: #fff;
+}
+.ecommercecor p {
+  text-align: start;
+  position: relative;
+  top: 23px;
+}
+
+.mtolococinco {
+  margin-top: 134px;
+}
+
+.mtolococinco1 {
+  margin-top: 175px;
+}
+
+.designcordohquatro {
+  box-shadow: 1px 1px 9px black;
+  margin-bottom: 50px;
+  margin-left: 77px;
+  position: relative;
+  left: 46%;
+}
+.designcordohquatro h4 {
+  margin: -10px auto;
+  background-color: #0034eb;
+  color: #fff;
+}
+.designcordohquatro p {
+  text-align: start;
+  position: relative;
+  top: 23px;
+}
+
+.iconedopaypalv2 {
+  position: relative;
+  left: 19px;
+  bottom: 3px;
+  z-index: 99;
+}
+
+.precosbotaov2 {
+  width: 46%;
+  background: linear-gradient(#203854, #01f3e5);
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  margin: 15px auto;
+  text-shadow: 1px 1px 6px black;
+  height: 6vh;
+  position: relative;
+  right: 13px;
+}/*# sourceMappingURL=style.css.map */

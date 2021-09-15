@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width:1200px ;
+}
+.container-medium{
+    max-width: 1366px;
+}
+.burguers{
+    width: 30px;
+    height: 30px;
+}
+.tamanhoicones{
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.img-fund{
+    background-image: url(../img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.navegacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 5;
+}
+.flexseder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0230523d;
+    list-style: none;
+    font-family: "Annie Use Your Telescope", cursive;
+    font-size: 24px;
+    height: 30vh;
+    position: absolute;
+    width: 100%;
+    transform: translateY(-276px);
+    transition: transform 0.4s ease-in;
+    
+    a{
+        text-decoration: none;
+        color: #fff;
+        text-shadow: 1px 1px 1px black
+    }
+}
+.nav-active{
+    transform: translateY(0px);
+}
+.burger{
+    height: 3px;
+    width: 5vh;
+    background-color: white;
+    margin: 2px auto;
+   
+}
+
+.sizeicons{
+    width: 30px;
+    height: 30px;
+   
+}
+.logo{
+    font-family: 'Bilbo Swash Caps', cursive;
+    font-size: 50px;
+    text-align: center;
+    
+    z-index: 1;
+    a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px black;
+    }
+    p{
+        font-family: 'Annie Use Your Telescope', cursive;   
+        font-size: 20px;
+        color: #fff;
+        text-shadow: 2px 2px 2px black;
+    }
+}
+.corbotom{
+    border-bottom: 2px solid rgb(194, 194, 194);
+    
+    
+}
+
+.menuaberto{
+    display:flex;
+    background-color: white;
+    justify-content: space-between;
+}
+.socialmedia{
+    z-index: 1;
+}
+.testenav{
+    height: 0vh;
+    position: relative;
+    top: 17%;
+}
+

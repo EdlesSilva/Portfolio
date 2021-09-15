@@ -1,0 +1,155 @@
+@media (min-width: 240px) and (max-width: 640px){
+    .cont-mobile{
+        width: 100%;
+    }
+    .img-fund{
+        
+        background-attachment: unset;
+    }
+.menu{
+    width: 100%;
+}
+.titulo-site h1{
+    font-size: 44px;
+    text-shadow: 1px 1px 1px wheat;
+}
+.sizeicons{
+    display: none;
+}
+.burguers{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.titulo-site{
+    top: 24%;
+}
+.port-centro{
+    flex-direction: column;
+    p{
+    font-size: 20px;
+    text-align: center;
+    }
+}
+.cb2021img{
+    width: 100%;
+    object-fit: contain;
+}
+.ladoalado{
+    flex-direction: column;
+}
+.transicao{
+    display: none;
+}
+.contatopage{
+    height: auto;
+    background-attachment: unset;
+}
+.formulariodecontato{
+    max-width: 95%;
+    margin: 50px 10px;
+}
+.contacttitle{
+    margin: 0px 10px;
+}
+.transicao2{
+    display: none;
+}
+.about{
+    background-attachment: unset;
+    height: auto;
+}
+.titleabout{
+    margin: 0px 10px;
+    h2{
+        margin-top: 70px;
+    }
+}
+.about-desc{
+    top: 0px;
+    
+    p{
+        margin: 50px auto;
+        width: 100%;
+        font-size: 15px;
+    }
+}
+.estudo{
+    width: auto;
+}
+.estudo h5{
+    font-size: 17px;
+}
+}
+
+@media(min-width: 641px) and (max-width: 991px){
+    .menu{
+        margin: 0px 10px;
+    }
+    .port-centro{
+        flex-direction: column;
+    }
+    .cb2021img{
+        width: 100%;
+        object-fit: contain;
+    }
+    .port-centro p{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    }
+    .transicao{
+        display: none;
+    }
+    .ladoalado{
+        flex-direction: column;
+    }
+    .contatopage{
+        height: auto;
+    }
+    .contacttitle{
+        margin: 0px 10px;
+    }
+    .transicao2{
+        display: none;
+    }
+    .titleabout{
+        margin: 70px 10px;
+    }
+    .about-desc p{
+        width: 100%;
+    }
+    .estudo{
+        width: auto;
+    }
+}
+@media(min-width:992px) and (max-width: 1199px){
+    .menu{
+        margin: 0px 10px;
+    }
+    .cb2021img{
+        width: 50%;
+        margin: 0px 24px;
+    }
+    .transicao, .transicao2{
+        display: none;
+    }
+    .contacttitle, .titleabout{
+        margin: 0px 10px;
+    }
+    .about-desc p{
+        width: 100%;
+    }
+    .about{
+        margin-top: 70px;
+    }
+}
+@media  (min-width:1367px) and (max-width:1980px){
+    .cont-full{
+        max-width: 1920px;
+    }
+    .about-desc p{
+        width: 100%;
+        font-size: 34px;
+        }
+}

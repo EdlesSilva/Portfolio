@@ -1,0 +1,79 @@
+.title-projetos{
+    text-align: center;
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: rgb(0, 0, 0);
+    margin: 50px auto;
+    
+    h2{
+        font-weight: lighter;
+        font-size: 50px;
+        position: relative;
+        top: 20px;
+        text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    }
+        
+    
+}
+.projects{
+    margin: 180px auto;
+    list-style: none;
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+.pro-links{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin-top: 70px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 2rem;
+    padding: 0px 10px;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    cursor: pointer;
+}
+.transicao-project{
+    background-image: url(../img/projetos.jpg);
+    height: 39vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cb2021img{
+    width: 34%;
+    height: 36vh;
+    object-fit: cover;
+    margin: 0px 15px;
+}
+.port-centro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px auto;
+    h3{
+        text-align: center;
+        font-family: 'Annie Use Your Telescope', cursive;
+        font-size: 30px;
+    }
+    p{
+        font-family: 'Annie Use Your Telescope', cursive;
+        font-size: 25px;
+        margin: 23px auto;
+        width: 65%;
+    }
+}
+.btn-cb2021{
+    display: flex;
+    margin: auto;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 20px;
+    border-radius: 2rem;
+    border: 3px solid black;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0px 15px;
+    margin-top: 15px;
+   
+}
+.deco{
+    text-decoration: none;
+}

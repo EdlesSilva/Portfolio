@@ -1,0 +1,64 @@
+.backfooter{
+    background-image: $backfooter;
+    height: 70vh;
+}
+.footericones{
+    width: 30px;
+    height: 30px;
+    
+}
+.footercor{
+    color: #fff;
+    margin-top: 70px;
+    position: relative;
+    left: 17px;
+    
+}
+.footercor h5{
+   font-weight: lighter;
+   font-family: "Reem Kufi";
+  
+}
+.footermenu{
+    color: #fff;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    position: relative;
+    top: 43%;
+    line-height: 38px;
+    left: 50px;
+}
+.footersocial{
+    color: #fff;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    position: relative;
+    top: 43%;
+    line-height: 50px;
+}
+.fts{
+  text-decoration: none;
+  color: #fff;
+}
+.ftsicones{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 10px;
+}
+.copyright{
+    color: #fff;
+    background-color: rgba(12, 24, 36, 1);
+}
+.copyright p {
+    margin: 0 auto;
+    font-weight: lighter;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 10px;
+    align-items: center;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+}
